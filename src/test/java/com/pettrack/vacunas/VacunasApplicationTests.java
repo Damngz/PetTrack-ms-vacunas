@@ -7,7 +7,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class VacunasApplicationTests {
 
 	@Test
-	void contextLoads() {
-	}
+    void contextLoads() {
+        VacunasApplication.main(new String[] {});
+    }
+	
 
 }
